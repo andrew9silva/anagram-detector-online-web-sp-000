@@ -10,6 +10,9 @@ class Anagram
     array.each do |object|
       if object.sort == @word
         true
-        
+      else
+        false
+      end
+    end 
 
 end
